@@ -1,0 +1,15 @@
+import "Lidar3D.idsl";
+import "OmniRobot.idsl";
+
+Component localiser
+{
+    Communications
+    {
+        
+        requires Lidar3D, OmniRobot;
+    };
+   language Cpp11;
+   gui Qt(QWidget);
+
+};
+
