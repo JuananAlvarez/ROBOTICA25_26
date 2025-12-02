@@ -1,8 +1,9 @@
-/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/EWIEGA46WW/moc_genericworker.cpp: /home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/genericworker.h \
-  /home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/moc_predefs.h \
-  /home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/GenericBase.h \
-  /home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/Lidar3D.h \
-  /home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/OmniRobot.h \
+/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/EWIEGA46WW/moc_genericworker.cpp: /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/genericworker.h \
+  /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/moc_predefs.h \
+  /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/Camera360RGB.h \
+  /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/GenericBase.h \
+  /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/Lidar3D.h \
+  /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/OmniRobot.h \
   /home/usuario/robocomp/core/classes/ConfigLoader/ConfigLoader.h \
   /home/usuario/robocomp/core/classes/ConfigLoader/ConfigLoader.tpp \
   /home/usuario/robocomp/core/classes/grafcetStep/GRAFCETStep.h \

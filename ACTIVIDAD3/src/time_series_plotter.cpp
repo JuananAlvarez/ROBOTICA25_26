@@ -29,7 +29,7 @@ TimeSeriesPlotter::TimeSeriesPlotter(QWidget *parent, const Config &config)
     // Set up layout if parent has one, otherwise create one
     if (parent->layout() == nullptr)
     {
-        QVBox Layout *layout = new QVBoxLayout(parent);
+        QVBoxLayout *layout = new QVBoxLayout(parent);
         layout->setContentsMargins(0, 0, 0, 0);
         parent->setLayout(layout);
     }

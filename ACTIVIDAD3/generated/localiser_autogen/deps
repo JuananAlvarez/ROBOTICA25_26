@@ -1,29 +1,34 @@
 localiser_autogen/timestamp: \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/CMakeLists.txt \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/GenericBase.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/Lidar3D.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/OmniRobot.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/genericworker.cpp \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/genericworker.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/moc_predefs.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/main.cpp \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/CMakeLists.txt \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/common_types.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/door_detector.cpp \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/door_detector.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/hungarian.cpp \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/hungarian.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/munkres.hpp \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/qcustomplot.cpp \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/qcustomplot.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/ransac_line_detector.cpp \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/ransac_line_detector.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/room_detector.cpp \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/room_detector.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/specificworker.cpp \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/specificworker.h \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/time_series_plotter.cpp \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/time_series_plotter.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/CMakeLists.txt \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/Camera360RGB.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/GenericBase.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/Lidar3D.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/OmniRobot.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/genericworker.cpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/genericworker.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/moc_predefs.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/main.cpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/CMakeLists.txt \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/common_types.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/door_detector.cpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/door_detector.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/hungarian.cpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/hungarian.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/image_processor.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/munkres.hpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/nominal_room.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/pointcloud_center_estimator.cpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/pointcloud_center_estimator.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/qcustomplot.cpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/qcustomplot.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/ransac_line_detector.cpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/ransac_line_detector.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/room_detector.cpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/room_detector.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/specificworker.cpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/specificworker.h \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/time_series_plotter.cpp \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/time_series_plotter.h \
 	/home/usuario/robocomp/classes/ConfigLoader/ConfigLoader.cpp \
 	/home/usuario/robocomp/classes/ConfigLoader/ConfigLoader.h \
 	/home/usuario/robocomp/classes/abstract_graphic_viewer/abstract_graphic_viewer.cpp \
@@ -40,7 +45,9 @@ localiser_autogen/timestamp: \
 	/home/usuario/robocomp/core/classes/ConfigLoader/ConfigLoader.h \
 	/home/usuario/robocomp/core/classes/ConfigLoader/ConfigLoader.tpp \
 	/home/usuario/robocomp/core/classes/abstract_graphic_viewer/abstract_graphic_viewer.h \
+	/home/usuario/robocomp/core/classes/doublebuffer/DoubleBuffer.h \
 	/home/usuario/robocomp/core/classes/grafcetStep/GRAFCETStep.h \
+	/home/usuario/robocomp/core/classes/threadpool/threadpool.h \
 	/usr/include/GL/gl.h \
 	/usr/include/Ice/AsyncResult.h \
 	/usr/include/Ice/BatchRequestQueueF.h \
@@ -375,6 +382,7 @@ localiser_autogen/timestamp: \
 	/usr/include/c++/13/bits/stl_multiset.h \
 	/usr/include/c++/13/bits/stl_numeric.h \
 	/usr/include/c++/13/bits/stl_pair.h \
+	/usr/include/c++/13/bits/stl_queue.h \
 	/usr/include/c++/13/bits/stl_raw_storage_iter.h \
 	/usr/include/c++/13/bits/stl_relops.h \
 	/usr/include/c++/13/bits/stl_set.h \
@@ -405,6 +413,7 @@ localiser_autogen/timestamp: \
 	/usr/include/c++/13/compare \
 	/usr/include/c++/13/complex \
 	/usr/include/c++/13/concepts \
+	/usr/include/c++/13/condition_variable \
 	/usr/include/c++/13/cstddef \
 	/usr/include/c++/13/cstdint \
 	/usr/include/c++/13/cstdio \
@@ -417,6 +426,8 @@ localiser_autogen/timestamp: \
 	/usr/include/c++/13/debug/debug.h \
 	/usr/include/c++/13/deque \
 	/usr/include/c++/13/exception \
+	/usr/include/c++/13/execution \
+	/usr/include/c++/13/expected \
 	/usr/include/c++/13/ext/aligned_buffer.h \
 	/usr/include/c++/13/ext/alloc_traits.h \
 	/usr/include/c++/13/ext/atomicity.h \
@@ -446,14 +457,32 @@ localiser_autogen/timestamp: \
 	/usr/include/c++/13/numeric \
 	/usr/include/c++/13/optional \
 	/usr/include/c++/13/ostream \
+	/usr/include/c++/13/pstl/algorithm_fwd.h \
+	/usr/include/c++/13/pstl/algorithm_impl.h \
 	/usr/include/c++/13/pstl/execution_defs.h \
+	/usr/include/c++/13/pstl/execution_impl.h \
 	/usr/include/c++/13/pstl/glue_algorithm_defs.h \
+	/usr/include/c++/13/pstl/glue_algorithm_impl.h \
+	/usr/include/c++/13/pstl/glue_execution_defs.h \
 	/usr/include/c++/13/pstl/glue_memory_defs.h \
+	/usr/include/c++/13/pstl/glue_memory_impl.h \
 	/usr/include/c++/13/pstl/glue_numeric_defs.h \
+	/usr/include/c++/13/pstl/glue_numeric_impl.h \
+	/usr/include/c++/13/pstl/memory_impl.h \
+	/usr/include/c++/13/pstl/numeric_fwd.h \
+	/usr/include/c++/13/pstl/numeric_impl.h \
+	/usr/include/c++/13/pstl/parallel_backend.h \
+	/usr/include/c++/13/pstl/parallel_backend_utils.h \
+	/usr/include/c++/13/pstl/parallel_impl.h \
+	/usr/include/c++/13/pstl/pstl_config.h \
+	/usr/include/c++/13/pstl/unseq_backend_simd.h \
+	/usr/include/c++/13/pstl/utils.h \
+	/usr/include/c++/13/queue \
 	/usr/include/c++/13/random \
 	/usr/include/c++/13/ranges \
 	/usr/include/c++/13/ratio \
 	/usr/include/c++/13/set \
+	/usr/include/c++/13/shared_mutex \
 	/usr/include/c++/13/span \
 	/usr/include/c++/13/sstream \
 	/usr/include/c++/13/stdexcept \
@@ -461,6 +490,7 @@ localiser_autogen/timestamp: \
 	/usr/include/c++/13/string \
 	/usr/include/c++/13/string_view \
 	/usr/include/c++/13/system_error \
+	/usr/include/c++/13/thread \
 	/usr/include/c++/13/tr1/bessel_function.tcc \
 	/usr/include/c++/13/tr1/beta_function.tcc \
 	/usr/include/c++/13/tr1/ell_integral.tcc \
@@ -674,10 +704,17 @@ localiser_autogen/timestamp: \
 	/usr/include/linux/errno.h \
 	/usr/include/linux/limits.h \
 	/usr/include/locale.h \
+	/usr/include/math.h \
+	/usr/include/opencv4/opencv2/calib3d.hpp \
 	/usr/include/opencv4/opencv2/core.hpp \
+	/usr/include/opencv4/opencv2/core/affine.hpp \
+	/usr/include/opencv4/opencv2/core/async.hpp \
 	/usr/include/opencv4/opencv2/core/base.hpp \
 	/usr/include/opencv4/opencv2/core/bufferpool.hpp \
 	/usr/include/opencv4/opencv2/core/check.hpp \
+	/usr/include/opencv4/opencv2/core/cuda.hpp \
+	/usr/include/opencv4/opencv2/core/cuda.inl.hpp \
+	/usr/include/opencv4/opencv2/core/cuda_types.hpp \
 	/usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
 	/usr/include/opencv4/opencv2/core/cvdef.h \
 	/usr/include/opencv4/opencv2/core/cvstd.hpp \
@@ -699,7 +736,74 @@ localiser_autogen/timestamp: \
 	/usr/include/opencv4/opencv2/core/utility.hpp \
 	/usr/include/opencv4/opencv2/core/version.hpp \
 	/usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+	/usr/include/opencv4/opencv2/dnn.hpp \
+	/usr/include/opencv4/opencv2/dnn/dict.hpp \
+	/usr/include/opencv4/opencv2/dnn/dnn.hpp \
+	/usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+	/usr/include/opencv4/opencv2/dnn/layer.hpp \
+	/usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+	/usr/include/opencv4/opencv2/dnn/version.hpp \
+	/usr/include/opencv4/opencv2/features2d.hpp \
+	/usr/include/opencv4/opencv2/flann.hpp \
+	/usr/include/opencv4/opencv2/flann/all_indices.h \
+	/usr/include/opencv4/opencv2/flann/allocator.h \
+	/usr/include/opencv4/opencv2/flann/any.h \
+	/usr/include/opencv4/opencv2/flann/autotuned_index.h \
+	/usr/include/opencv4/opencv2/flann/composite_index.h \
+	/usr/include/opencv4/opencv2/flann/config.h \
+	/usr/include/opencv4/opencv2/flann/defines.h \
+	/usr/include/opencv4/opencv2/flann/dist.h \
+	/usr/include/opencv4/opencv2/flann/dynamic_bitset.h \
+	/usr/include/opencv4/opencv2/flann/flann_base.hpp \
+	/usr/include/opencv4/opencv2/flann/general.h \
+	/usr/include/opencv4/opencv2/flann/ground_truth.h \
+	/usr/include/opencv4/opencv2/flann/heap.h \
+	/usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+	/usr/include/opencv4/opencv2/flann/index_testing.h \
+	/usr/include/opencv4/opencv2/flann/kdtree_index.h \
+	/usr/include/opencv4/opencv2/flann/kdtree_single_index.h \
+	/usr/include/opencv4/opencv2/flann/kmeans_index.h \
+	/usr/include/opencv4/opencv2/flann/linear_index.h \
+	/usr/include/opencv4/opencv2/flann/logger.h \
+	/usr/include/opencv4/opencv2/flann/lsh_index.h \
+	/usr/include/opencv4/opencv2/flann/lsh_table.h \
+	/usr/include/opencv4/opencv2/flann/matrix.h \
+	/usr/include/opencv4/opencv2/flann/miniflann.hpp \
+	/usr/include/opencv4/opencv2/flann/nn_index.h \
+	/usr/include/opencv4/opencv2/flann/params.h \
+	/usr/include/opencv4/opencv2/flann/random.h \
+	/usr/include/opencv4/opencv2/flann/result_set.h \
+	/usr/include/opencv4/opencv2/flann/sampling.h \
+	/usr/include/opencv4/opencv2/flann/saving.h \
+	/usr/include/opencv4/opencv2/flann/timer.h \
+	/usr/include/opencv4/opencv2/highgui.hpp \
+	/usr/include/opencv4/opencv2/imgcodecs.hpp \
+	/usr/include/opencv4/opencv2/imgproc.hpp \
+	/usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+	/usr/include/opencv4/opencv2/ml.hpp \
+	/usr/include/opencv4/opencv2/ml/ml.inl.hpp \
+	/usr/include/opencv4/opencv2/objdetect.hpp \
+	/usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+	/usr/include/opencv4/opencv2/objdetect/face.hpp \
+	/usr/include/opencv4/opencv2/opencv.hpp \
 	/usr/include/opencv4/opencv2/opencv_modules.hpp \
+	/usr/include/opencv4/opencv2/photo.hpp \
+	/usr/include/opencv4/opencv2/stitching.hpp \
+	/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+	/usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+	/usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+	/usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+	/usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+	/usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+	/usr/include/opencv4/opencv2/stitching/detail/util.hpp \
+	/usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+	/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+	/usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+	/usr/include/opencv4/opencv2/stitching/warpers.hpp \
+	/usr/include/opencv4/opencv2/video.hpp \
+	/usr/include/opencv4/opencv2/video/background_segm.hpp \
+	/usr/include/opencv4/opencv2/video/tracking.hpp \
+	/usr/include/opencv4/opencv2/videoio.hpp \
 	/usr/include/pthread.h \
 	/usr/include/sched.h \
 	/usr/include/signal.h \
@@ -727,12 +831,21 @@ localiser_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/bits/errno.h \
 	/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
 	/usr/include/x86_64-linux-gnu/bits/floatn.h \
+	/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+	/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+	/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
 	/usr/include/x86_64-linux-gnu/bits/getopt_core.h \
 	/usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+	/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
 	/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+	/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
 	/usr/include/x86_64-linux-gnu/bits/local_lim.h \
 	/usr/include/x86_64-linux-gnu/bits/locale.h \
 	/usr/include/x86_64-linux-gnu/bits/long-double.h \
+	/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+	/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+	/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+	/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
 	/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
 	/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
 	/usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -819,6 +932,7 @@ localiser_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+	/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
@@ -846,6 +960,7 @@ localiser_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QPointer \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QScopedPointer \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QSharedPointer \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
@@ -1084,7 +1199,9 @@ localiser_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qxpfunctional.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QAction \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QActionGroup \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QFileSystemModel \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QMatrix4x4 \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QMouseEvent \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QPaintDevice \
@@ -1239,6 +1356,7 @@ localiser_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsPolygonItem \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsScene \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLayout \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QScrollBar \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QScrollerProperties \
@@ -1556,14 +1674,6 @@ localiser_autogen/timestamp: \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGL/Qt6OpenGLTargets-none.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake \
-	/usr/lib/x86_64-linux-gnu/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake \
-	/usr/lib/x86_64-linux-gnu/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake \
-	/usr/lib/x86_64-linux-gnu/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake \
-	/usr/lib/x86_64-linux-gnu/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake \
-	/usr/lib/x86_64-linux-gnu/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake \
-	/usr/lib/x86_64-linux-gnu/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-none.cmake \
-	/usr/lib/x86_64-linux-gnu/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake \
-	/usr/lib/x86_64-linux-gnu/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessTargets.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6StateMachine/Qt6StateMachineAdditionalTargetInfo.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6StateMachine/Qt6StateMachineConfig.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6StateMachine/Qt6StateMachineConfigVersion.cmake \
@@ -1672,8 +1782,5 @@ localiser_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
 	/usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
 	/usr/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake \
-	/usr/share/eigen3/cmake/Eigen3Config.cmake \
-	/usr/share/eigen3/cmake/Eigen3ConfigVersion.cmake \
-	/usr/share/eigen3/cmake/Eigen3Targets.cmake \
-	/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/src/mainUI.ui \
+	/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/src/mainUI.ui \
 	/usr/bin/cmake

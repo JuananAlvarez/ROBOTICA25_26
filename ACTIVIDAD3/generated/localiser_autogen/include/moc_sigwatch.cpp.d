@@ -1,5 +1,5 @@
-/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/include/moc_sigwatch.cpp: /home/usuario/robocomp/classes/sigwatch/sigwatch.h \
-  /home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/moc_predefs.h \
+/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/include/moc_sigwatch.cpp: /home/usuario/robocomp/classes/sigwatch/sigwatch.h \
+  /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

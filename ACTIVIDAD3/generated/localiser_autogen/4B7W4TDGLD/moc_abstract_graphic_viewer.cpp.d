@@ -1,5 +1,5 @@
-/home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/4B7W4TDGLD/moc_abstract_graphic_viewer.cpp: /home/usuario/robocomp/classes/abstract_graphic_viewer/abstract_graphic_viewer.h \
-  /home/usuario/Escritorio/Actividad3_Daniel_Juanan_MiguelFelipe-20251112T144418Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/moc_predefs.h \
+/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/4B7W4TDGLD/moc_abstract_graphic_viewer.cpp: /home/usuario/robocomp/classes/abstract_graphic_viewer/abstract_graphic_viewer.h \
+  /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/localiser_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

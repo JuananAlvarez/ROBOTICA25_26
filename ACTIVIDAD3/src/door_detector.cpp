@@ -3,6 +3,8 @@
 //
 
 #include "door_detector.h"
+
+#include <expected>
 #include <cppitertools/sliding_window.hpp>
 #include <cppitertools/combinations.hpp>
 #include <QGraphicsItem>
@@ -10,63 +12,90 @@
 Doors DoorDetector::detect(const RoboCompLidar3D::TPoints &points, QGraphicsScene *scene)
 {
     Doors detected_doors;
-    std::vector<RoboCompLidar3D::TPoint> peaks;
+    doors_cache.clear();
 
-    // --- 1. Detect peaks (large jumps in distance)
-    for (const auto &[p1, p2] : iter::sliding_window<2>(points))
+    if (points.size() < 2)
+        return detected_doors;
+
+    // ========== 1) Localizar saltos bruscos (peaks) ==========
+    Peaks raw_peaks;
+    raw_peaks.reserve(points.size());
+
+    for (const auto &pair : iter::sliding_window(points, 2))
     {
-        float diff = std::abs(p1.distance2d - p2.distance2d);
-        if (diff > 1000)   // threshold in mm
+        const auto &a = pair[0];
+        const auto &b = pair[1];
+        const float gap = std::fabs(a.distance2d - b.distance2d);
+
+        if (gap > 1000.f)   // umbral
         {
-            // add the closer one
-            peaks.push_back((p1.distance2d < p2.distance2d) ? p1 : p2);
+            const auto &closest = (a.distance2d < b.distance2d ? a : b);
+            raw_peaks.emplace_back(Eigen::Vector2f{closest.x, closest.y}, closest.phi);
         }
     }
 
-    // --- 2. Draw peaks on scene (for debugging)
+    // ========== 2) Dibujar peaks (solo depuración) ==========
     if (scene)
     {
-        for (const auto &p : peaks)
+        static std::vector<QGraphicsItem*> graphic_peaks;
+
+        // limpiar dibujos previos
+        for (auto *g : graphic_peaks)
         {
-            float x = p.x;
-            float y = -p.y; // adjust coordinate if needed
-            scene->addEllipse(x - 50, y - 50, 100, 100, QPen(Qt::red), QBrush(Qt::red));
+            scene->removeItem(g);
+            delete g;
+        }
+        graphic_peaks.clear();
+
+        QPen p(Qt::yellow);
+        p.setWidth(10);
+
+        for (const auto &[pos, ang] : raw_peaks)
+        {
+            Q_UNUSED(ang);
+            auto rect = scene->addRect(-20, -20, 40, 40, p);
+            rect->setPos(pos.x(), pos.y());
+            graphic_peaks.push_back(rect);
         }
     }
 
-    // --- 3. Non-Maximum Suppression (remove close peaks)
-    std::vector<RoboCompLidar3D::TPoint> filtered_peaks;
-    const float MIN_PEAK_DIST = 200; // mm
-    for (const auto &p : peaks)
+    // ========== 3) Non-Maximum Suppression ==========
+    Peaks filtered_peaks;
+    filtered_peaks.reserve(raw_peaks.size());
+
+    for (const auto &[pos, ang] : raw_peaks)
     {
-        bool too_close = false;
-        for (const auto &fp : filtered_peaks)
+        bool neighbour_found = false;
+
+        for (const auto &[p2, ang2] : filtered_peaks)
         {
-            if ((Eigen::Vector2f(p.x, p.y) - Eigen::Vector2f(fp.x, fp.y)).norm() < MIN_PEAK_DIST)
+            Q_UNUSED(ang2);
+            if ((pos - p2).norm() < 500.f)
             {
-                too_close = true;
+                neighbour_found = true;
                 break;
             }
         }
-        if (!too_close)
-            filtered_peaks.push_back(p);
+
+        if (!neighbour_found)
+            filtered_peaks.emplace_back(pos, ang);
     }
 
-    // --- 4. Form doors from pairs of peaks
-    for (const auto &[p1, p2] : iter::combinations(filtered_peaks, 2))
+    // ========== 4) Emparejar peaks para formar puertas ==========
+    for (auto &&pair : iter::combinations(filtered_peaks, 2))
     {
-        float dist = (Eigen::Vector2f(p1.x, p1.y) - Eigen::Vector2f(p2.x, p2.y)).norm();
-        if (dist > 800 && dist < 1200)
+        const auto &[pa, angA] = pair[0];
+        const auto &[pb, angB] = pair[1];
+
+        float separation = (pa - pb).norm();
+
+        if (separation >= 800.f && separation <= 1200.f)
         {
-            Door d;
-            d.p1 = Eigen::Vector2f(p1.x, p1.y);
-            d.p2 = Eigen::Vector2f(p2.x, p2.y);
-            d.p1_angle = p1.phi;
-            d.p2_angle = p2.phi;
-            detected_doors.push_back(d);
+            detected_doors.emplace_back(Door{pa, angA, pb, angB});
         }
     }
 
+    doors_cache = detected_doors;
     return detected_doors;
 }
 
@@ -107,4 +136,11 @@ RoboCompLidar3D::TPoints DoorDetector::filter_points(const RoboCompLidar3D::TPoi
         }
     }
     return filtered;
+}
+
+std::expected<Door, std::string> DoorDetector::get_current_door() const
+{
+    if (doors_cache.empty())
+        return std::unexpected<std::string>{"No doors detected"};
+    return doors_cache[0];
 }

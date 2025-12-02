@@ -129,6 +129,15 @@ int SpecificWorker::startup_check()
 
 
 /**************************************/
+// From the RoboCompCamera360RGB you can call this methods:
+// RoboCompCamera360RGB::TImage this->camera360rgb_proxy->getROI(int cx, int cy, int sx, int sy, int roiwidth, int roiheight)
+
+/**************************************/
+// From the RoboCompCamera360RGB you can use this types:
+// RoboCompCamera360RGB::TRoi
+// RoboCompCamera360RGB::TImage
+
+/**************************************/
 // From the RoboCompLidar3D you can call this methods:
 // RoboCompLidar3D::TColorCloudData this->lidar3d_proxy->getColorCloudData()
 // RoboCompLidar3D::TData this->lidar3d_proxy->getLidarData(string name, float start, float len, int decimationDegreeFactor)

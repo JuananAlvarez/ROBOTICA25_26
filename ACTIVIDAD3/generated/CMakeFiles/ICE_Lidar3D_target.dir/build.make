@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe
+CMAKE_SOURCE_DIR = /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe
+CMAKE_BINARY_DIR = /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe
 
 # Utility rule file for ICE_Lidar3D_target.
 
@@ -69,8 +69,8 @@ include generated/CMakeFiles/ICE_Lidar3D_target.dir/progress.make
 generated/CMakeFiles/ICE_Lidar3D_target: generated/Lidar3D.ice
 
 generated/Lidar3D.ice: /home/usuario/robocomp/interfaces/IDSLs/Lidar3D.idsl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/Lidar3D.ice from /home/usuario/robocomp/interfaces/IDSLs/Lidar3D.idsl"
-	cd /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated && robocompdsl /home/usuario/robocomp/interfaces/IDSLs/Lidar3D.idsl /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/Lidar3D.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/Lidar3D.ice from /home/usuario/robocomp/interfaces/IDSLs/Lidar3D.idsl"
+	cd /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated && robocompdsl /home/usuario/robocomp/interfaces/IDSLs/Lidar3D.idsl /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/Lidar3D.ice
 
 ICE_Lidar3D_target: generated/CMakeFiles/ICE_Lidar3D_target
 ICE_Lidar3D_target: generated/Lidar3D.ice
@@ -82,10 +82,10 @@ generated/CMakeFiles/ICE_Lidar3D_target.dir/build: ICE_Lidar3D_target
 .PHONY : generated/CMakeFiles/ICE_Lidar3D_target.dir/build
 
 generated/CMakeFiles/ICE_Lidar3D_target.dir/clean:
-	cd /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated && $(CMAKE_COMMAND) -P CMakeFiles/ICE_Lidar3D_target.dir/cmake_clean.cmake
+	cd /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated && $(CMAKE_COMMAND) -P CMakeFiles/ICE_Lidar3D_target.dir/cmake_clean.cmake
 .PHONY : generated/CMakeFiles/ICE_Lidar3D_target.dir/clean
 
 generated/CMakeFiles/ICE_Lidar3D_target.dir/depend:
-	cd /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated /home/usuario/Descargas/ACTIVIDAD2/Actividad2_Daniel_Juanan_MiguelFelipe-20251106T145210Z-1-001/Actividad2_Daniel_Juanan_MiguelFelipe/generated/CMakeFiles/ICE_Lidar3D_target.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated /home/usuario/Escritorio/Actividad2_Daniel_Juanan_MiguelFelipe/generated/CMakeFiles/ICE_Lidar3D_target.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : generated/CMakeFiles/ICE_Lidar3D_target.dir/depend
 

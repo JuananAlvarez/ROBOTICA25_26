@@ -40,18 +40,13 @@ SET (SOURCES
 
 #ROBOCOMP
 ROBOCOMP_INITIALIZE( $ENV{ROBOCOMP}/ )
-ROBOCOMP_IDSL_TO_ICE(OmniRobot GenericBase Lidar3D)
-ROBOCOMP_ICE_TO_SRC(OmniRobot GenericBase Lidar3D)
+ROBOCOMP_IDSL_TO_ICE(GenericBase Camera360RGB OmniRobot Lidar3D)
+ROBOCOMP_ICE_TO_SRC(GenericBase Camera360RGB OmniRobot Lidar3D)
 SET (EXECUTABLE_OUTPUT_PATH ${RC_COMPONENT_DEVEL_PATH}/bin)
 set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_CURRENT_SOURCE_DIR}/../src)
 
 # Specify construction and link process
 ADD_EXECUTABLE( localiser ${SOURCES} ${MOC_SOURCES} ${RC_SOURCES} ${UI_HEADERS} )
-
-find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets PrintSupport)
-target_link_libraries(localiser Qt6::Core Qt6::Gui Qt6::Widgets Qt6::PrintSupport ${LIBS})
-
-
 TARGET_LINK_LIBRARIES( localiser ${LIBS}  ${STATIC_LIBS} ${SPECIFIC_LIBS} ${QT_LIBRARIES} ${Ice_LIBRARIES} )
 SET_TARGET_PROPERTIES(localiser
         PROPERTIES
