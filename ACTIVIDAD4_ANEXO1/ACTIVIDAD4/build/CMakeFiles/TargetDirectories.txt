@@ -1,0 +1,15 @@
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/CMakeFiles/edit_cache.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/CMakeFiles/rebuild_cache.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/CMakeFiles/list_install_components.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/CMakeFiles/install.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/CMakeFiles/install/local.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/CMakeFiles/install/strip.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/generated/CMakeFiles/ICES__home_juanan_Escritorio_ACTIVIDAD3_cambiospara4_ACTIVIDAD3_generated.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/generated/CMakeFiles/localiser.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/generated/CMakeFiles/edit_cache.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/generated/CMakeFiles/rebuild_cache.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/generated/CMakeFiles/list_install_components.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/generated/CMakeFiles/install.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/generated/CMakeFiles/install/local.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/generated/CMakeFiles/install/strip.dir
+/home/juanan/Escritorio/ACTIVIDAD3_cambiospara4/ACTIVIDAD3/build/generated/CMakeFiles/localiser_autogen.dir
